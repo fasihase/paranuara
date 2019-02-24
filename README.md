@@ -45,7 +45,7 @@ This program requires Python 3.5 or above to run.
     #### Download the project
 
     ```commandline
-    Download or Clone the project from https://github.com/fasihase/paranuara.git into paranuara-hivery folder
+    Download or Clone the project from [GitHub Page](https://github.com/fasihase/paranuara.git) into paranuara-hivery folder.
     ```
 
     #### Activate Virtual Environment, if not activated:

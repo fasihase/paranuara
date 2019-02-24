@@ -158,11 +158,80 @@ Then navigate to http://127.0.0.1:8000/
     }
     ```
 
-2. http://localhost:8000/api/twopeople/10/11/
+2. http://localhost:8000/api/twopeople/10/15/
 
     Given 2 people, provides their information (Name, Age, Address, phone) and
     the list of their friends in common which have brown eyes and are still alive.
-    Where `10` and `11` are indexes of people as specified in source data.
+    Where `10` and `15` are indexes of people as specified in source data.
+    ```Json
+    {
+    "person1": {
+        "index": 10,
+        "name": "Kathleen Clarke",
+        "age": 30,
+        "address": "195 Ovington Avenue, Bonanza, Indiana, 7131",
+        "phone": "+1 (888) 523-3982"
+    },
+    "person2": {
+        "index": 15,
+        "name": "Morris Logan",
+        "age": 25,
+        "address": "776 Thatford Avenue, Wattsville, New York, 8981",
+        "phone": "+1 (830) 441-2767"
+    },
+    "common_friends": [
+        {
+            "index": 0,
+            "name": "Carmella Lambert",
+            "age": 61,
+            "address": "628 Sumner Place, Sperryville, American Samoa, 9819",
+            "phone": "+1 (910) 567-3630"
+        },
+        {
+            "index": 1,
+            "name": "Decker Mckenzie",
+            "age": 60,
+            "address": "492 Stockton Street, Lawrence, Guam, 4854",
+            "phone": "+1 (893) 587-3311"
+        },
+        {
+            "index": 2,
+            "name": "Bonnie Bass",
+            "age": 54,
+            "address": "455 Dictum Court, Nadine, Mississippi, 6499",
+            "phone": "+1 (823) 428-3710"
+        },
+        {
+            "index": 3,
+            "name": "Rosemary Hayes",
+            "age": 30,
+            "address": "130 Bay Parkway, Marshall, Virgin Islands, 298",
+            "phone": "+1 (984) 437-3226"
+        },
+        {
+            "index": 4,
+            "name": "Mindy Beasley",
+            "age": 62,
+            "address": "628 Brevoort Place, Bellamy, Kansas, 2696",
+            "phone": "+1 (862) 503-2197"
+        },
+        {
+            "index": 5,
+            "name": "Grace Kelly",
+            "age": 24,
+            "address": "762 Tabor Court, Ola, Idaho, 4329",
+            "phone": "+1 (923) 600-2868"
+        },
+        {
+            "index": 6,
+            "name": "Cote Booth",
+            "age": 26,
+            "address": "394 Loring Avenue, Salvo, Maryland, 9396",
+            "phone": "+1 (842) 598-3525"
+        }
+      ]
+    }
+    ```
 
 3. http://localhost:8000/api/fruits_and_vegetables/5/
 

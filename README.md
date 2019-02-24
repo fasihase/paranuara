@@ -98,7 +98,7 @@ Then navigate to http://127.0.0.1:8000/
 
 1. http://localhost:8000/api/employees/1/
 
-    Given a company (index or name), returns all its employees.
+    Given a company (**_index_** or **_name_**), returns all its employees.
     Where `1` is index of the company as specified in source data.
     ```json
     {

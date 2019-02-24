@@ -57,7 +57,7 @@ This program requires **Python 3.5** or above to run.
  3. Install dependencies
 
     ```commandline
-    cd paranuara-hivery/paranuara
+    cd paranuara-hivery/paranuara-master
     pip install -r requirements.txt
     ```
 

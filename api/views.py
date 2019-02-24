@@ -1,6 +1,4 @@
-from django.shortcuts import render
-from rest_framework import status, generics, viewsets, views
-from rest_framework.decorators import api_view
+from rest_framework import viewsets, views
 from rest_framework.response import Response
 from django_filters.rest_framework import DjangoFilterBackend
 from .models import People, Companies
@@ -30,7 +28,7 @@ class CompanyEmployeesViewset(viewsets.ReadOnlyModelViewSet):
 class TwoPeopleView(views.APIView):
     """
     Given 2 people, provides their information and the list of their
-    friends in common which have brown eyes and are still alive.
+    friends in common who has brown eyes and are still alive.
     """
     def get(self, request, pk1, pk2, format=None):
         people = People.objects.filter(index__in=(pk1, pk2))

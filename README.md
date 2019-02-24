@@ -45,7 +45,7 @@ This program requires Python 3.5 or above to run.
     #### Download the project
 
     ```commandline
-    Download or Clone the project from https://github.com/fasihase/paranuara.git into paranuara-hivery folder 
+    Download or Clone the project from https://github.com/fasihase/paranuara.git into paranuara-hivery folder
     ```
 
     #### Activate Virtual Environment, if not activated:
@@ -98,8 +98,65 @@ Then navigate to http://127.0.0.1:8000/
 
 1. http://localhost:8000/api/employees/1/
 
-    Given a company (index), returns all its employees.
+    Given a company (index or name), returns all its employees.
     Where `1` is index of the company as specified in source data.
+    ```json
+    {
+    "index": 1,
+    "company": "PERMADYNE",
+    "employees": [
+        {
+            "index": 289,
+            "name": "Frost Foley",
+            "age": 22,
+            "address": "824 Clark Street, Utting, New Mexico, 3994",
+            "phone": "+1 (987) 436-3916"
+        },
+        {
+            "index": 580,
+            "name": "Luna Rodgers",
+            "age": 56,
+            "address": "430 Frank Court, Camino, American Samoa, 2134",
+            "phone": "+1 (889) 544-3275"
+        },
+        {
+            "index": 670,
+            "name": "Boyer Raymond",
+            "age": 20,
+            "address": "326 Times Placez, Cumminsville, Montana, 2703",
+            "phone": "+1 (867) 458-3241"
+        },
+        {
+            "index": 714,
+            "name": "Solomon Cooke",
+            "age": 51,
+            "address": "340 Granite Street, Cazadero, Colorado, 1597",
+            "phone": "+1 (844) 460-3877"
+        },
+        {
+            "index": 828,
+            "name": "Walter Avery",
+            "age": 35,
+            "address": "797 Vandervoort Place, Wheaton, Kentucky, 1051",
+            "phone": "+1 (992) 532-3748"
+        },
+        {
+            "index": 928,
+            "name": "Hester Malone",
+            "age": 38,
+            "address": "928 Seaview Court, Jacksonburg, American Samoa, 4161",
+            "phone": "+1 (847) 435-3662"
+        },
+        {
+            "index": 985,
+            "name": "Arlene Erickson",
+            "age": 46,
+            "address": "821 Coventry Road, Manchester, New Mexico, 2751",
+            "phone": "+1 (878) 521-3781"
+        }
+      ]
+    }
+    ```
 
 2. http://localhost:8000/api/twopeople/10/11/
 

@@ -96,7 +96,7 @@ Then navigate to http://127.0.0.1:8000/
 
 ## REST API Endpoints:
 
-1. http://localhost:8000/api/employees/1/
+1. http://localhost:8000/api/employees/1/   OR   http://127.0.0.1:8000/api/employees/?company=PERMADYNE
 
     Given a company (**_index_** or **_name_**), returns all its employees.
     Where `1` is index of the company as specified in source data.

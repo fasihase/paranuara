@@ -71,6 +71,12 @@ Then navigate to http://127.0.0.1:8000/
 
 ### Usage
 
+* To run tests, Run below command:
+
+  ```commandline
+  python manage.py test
+  ```
+
 * Eager to use different companies.json or people.json files:
 
     1. Copy companies.json and/or people.json file to resource folder availabe under project folder
@@ -87,12 +93,6 @@ Then navigate to http://127.0.0.1:8000/
         python load_companies.py
         python load_people.py
         ```
-
-* To run tests, Run below command:
-
-  ```commandline
-  python manage.py test
-  ```
 
 ## REST API Endpoints:
 

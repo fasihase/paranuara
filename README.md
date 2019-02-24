@@ -40,7 +40,7 @@ This program requires **Python 3.5** or above to run.
     mkvirtualenv paranuara-hivery
     ```
 
- 2. Choose a folder to install Paranuara. Create and activate new virtualenv.
+ 2. Install Paranuara in already created virtualenv.
 
     #### Download the project
 
